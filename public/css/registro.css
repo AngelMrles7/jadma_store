@@ -1,0 +1,9 @@
+.container{
+    background-color:#1D2126;
+    padding: 70px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+label{
+    color: #fff;
+}

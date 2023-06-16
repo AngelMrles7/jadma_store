@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: auto;
+
+}
+
+
+h2{
+    padding: 10px;
+    margin: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+.main{
+    flex: 1 0 auto;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 80%;
+}
+.edit-template{
+    margin: 20px auto 40px;
+    max-width: 1100px;
+}
+
+.edit-template .main-section{
+    padding-left: 25%;
+    position: relative;
+}
+
+.edit-template .formulario{
+    background: #fff;
+    position: relative;
+    min-height: 600px;
+    margin: 20px auto;
+    border: 1px solid #1D2126;
+}
+
+.side-nav{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #1D2126;
+    position: absolute;
+    width: 25%;
+    box-shadow: 1px 1px #1D2126 inset, 0 -1px #1D2126 inset;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.optionPerfil{
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+}
+
+
+label{
+    display: block;
+    padding-left: 15px;
+    text-indent: -10px;
+    padding: 10px;
+}
+.form{
+    padding: 20px 0px;
+}
+.div-input{
+   padding: 10px 10%;
+   padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64.8rem;
+}
+
+.div-input input{
+   
+    background-color: rgb(228, 215, 215,);
+    height: 33px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 1.5em;
+} 
+
+.side-nav li {
+    color: #5a5b5c;
+    font-weight: 50;
+   
+    display: block!important;
+    margin: 0!important;
+}
+.list li {
+    padding-left: 0;
+}
+.side-nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+}
+.side-nav li a:hover {
+   background-color: #fff;
+   color: #1D2126;
+}
+.side-nav li * {
+    display: block;
+    padding: 3px 15px;
+}
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (max-width: 767px){
+.edit-template .main-section {
+    padding: 0 5px;
+}
+h2{
+    color: #fff;
+}
+.side-nav li a {
+    color: #fff;
+}
+.side-nav li a:hover {
+    background-color: #1D2126;
+    color: #fff;
+ }
+
+.side-nav {
+    background-color: #1D2126;
+    box-shadow: none;
+    float: none;
+    position: relative;
+    width: 100%;
+}
+}

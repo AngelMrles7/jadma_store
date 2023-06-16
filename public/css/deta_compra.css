@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.deta-main{
+    overflow: hidden;
+}
+
+.deta-compra{
+    margin: 0;
+    padding: 48px 35px 20px;
+}
+
+.deta-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.deta-pago {
+    width: 35%;
+}
+
+@media (max-width: 950px) {
+    .deta-content{
+        flex-direction: column;
+    }
+    .deta-pago {
+        margin-top: 28px;
+        width: 100%;
+    }
+}
